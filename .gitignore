@@ -1,0 +1,24 @@
+# Ignore Visual Studio files
+.vs/
+*.sdf
+*.opensdf
+*.suo
+*.VC.db
+
+# Ignore build output
+x64/
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
+*.idb
+*.ipch
+
+# CUDA generated files
+*.cu.obj
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.sln.docstates
